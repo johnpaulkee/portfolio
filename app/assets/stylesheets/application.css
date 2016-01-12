@@ -13,3 +13,64 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+ a {
+ 	color: #7CB342;
+ }
+
+ body {
+ 	font-family: 'Abel', sans-serif;
+ 	background-color: #FAFAFA;
+ 	padding-top: 60px;
+ 	padding-bottom: 60px;
+ 	animation: fadein 3s;
+ 	-moz-animation: fadein 3s; /* Firefox */
+ 	-webkit-animation: fadein 3s; /* Safari and Chrome */
+ 	-o-animation: fadein 3s; /* Opera */
+/* 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+*/ }
+
+ @keyframes fadein {
+ 	from {
+ 		opacity:0;
+ 	}
+ 	to {
+ 		opacity:1;
+ 	}
+ }
+ @-moz-keyframes fadein { /* Firefox */
+ 	from {
+ 		opacity:0;
+ 	}
+ 	to {
+ 		opacity:1;
+ 	}
+ }
+ @-webkit-keyframes fadein { /* Safari and Chrome */
+ 	from {
+ 		opacity:0;
+ 	}
+ 	to {
+ 		opacity:1;
+ 	}
+ }
+ @-o-keyframes fadein { /* Opera */
+ 	from {
+ 		opacity:0;
+ 	}
+ 	to {
+ 		opacity: 1;
+ 	}
+ }
+
+ .panel {
+ 	padding: 20px;
+ }
+
+ p {
+ 	font-size: 18px;
+ 	line-height: 180%;
+ }

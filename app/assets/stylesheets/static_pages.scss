@@ -1,3 +1,52 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.name {
+	text-transform: uppercase;
+}
+
+.subheader {
+	color: #676767;
+	margin-bottom: 3px;
+	letter-spacing: 2px;
+	font-family: 'Lato', sans-serif;
+}
+
+// Social Media and Nav Links
+.social-media {
+	text-transform: uppercase;
+	font-size: 13px;
+	ul {
+		list-style-type: none;
+		padding: 0px;
+
+		li {
+			display: inline;
+			margin-right: 15px;
+			letter-spacing: 2px;
+		}
+	}
+}
+
+.profile-pic {
+	max-width: 225px;
+}
+
+// Buttons
+.button-thin {
+	background-color: transparent;
+	border: 2px solid black;
+	padding: 5px 15px 5px 15px;
+}
+
+.button-thin:hover {
+	background-color: black;
+	color: white;
+}
+
+.proj {
+	height: 300px;
+}
