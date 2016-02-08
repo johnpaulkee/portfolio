@@ -6,26 +6,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 	<title>John Paul Kee</title>
 	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-
-	<!-- Favicon -->
-	<%= favicon_link_tag 'favicon/apple-icon-57x57.png', rel: 'apple-touch-icon', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/apple-icon-60x60.png', rel: 'apple-touch-icon', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/apple-icon-72x72.png', rel: 'apple-touch-icon', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/apple-icon-76x76.png', rel: 'apple-touch-icon', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/apple-icon-114x144.png', rel: 'apple-touch-icon', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/apple-icon-120x120.png', rel: 'apple-touch-icon', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/apple-icon-144x144.png', rel: 'apple-touch-icon', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/apple-icon-152x152.png', rel: 'apple-touch-icon', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/apple-icon-180x180.png', rel: 'apple-touch-icon', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/android-icon-192x192.png', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/favicon-32x32.png', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/favicon-96x96.png', type: 'image/png' %>
-	<%= favicon_link_tag 'favicon/favicon-16x16.png', type: 'image/png' %>
-<!-- 	<link rel="manifest" href="../assets/images/favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="../assets/images/favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">  -->
-
+	<%= render 'layouts/favicon' %>
 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	<%= csrf_meta_tags %>
 </head>
