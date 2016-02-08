@@ -1,8 +1,14 @@
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
- // change defaults to Materialize
- @import "materialize/components/color";
-$primary-color: color("blue", "lighten-2") !default;
- @import "materialize";
- @import "materialize/extras/nouislider";
+// change defaults to Materialize
+@import "materialize/components/color";
+@import "materialize";
+@import "materialize/extras/nouislider";
+
+@font-face {
+  font-family: 'Overpass';
+  src:font-url('Overpass-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
