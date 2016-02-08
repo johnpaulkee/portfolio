@@ -12,3 +12,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
+#main {
+  padding: 160px 0px 160px 0px;
+  background-image: url('/assets/main_bg.png');
+  background-repeat:no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -webkit-background-size: cover;
+  box-shadow: none;
+  margin: 0px;
+}
