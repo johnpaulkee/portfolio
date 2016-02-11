@@ -15,7 +15,7 @@
 
 #main {
   padding: 160px 0px 160px 0px;
-  background-image: url('/assets/main_bg.png');
+  background-image: url(asset-path('main_bg.png'));
   background-repeat:no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
