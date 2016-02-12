@@ -52,6 +52,20 @@
   border-radius: 0px;
 }
 
+code {
+  background-color: transparent;
+  font-family: 'Inconsolata';
+  color: white;
+  font-size: 35px;
+  line-height: 180%;
+}
+
+#man-jp {
+  background-color: #002C37;
+  opacity: 0.88;
+  border-radius: 26px;
+}
+
 #intro {
   padding: 160px 0px 160px 0px;
   background-image: url(asset-path('batman_bg.png'));
