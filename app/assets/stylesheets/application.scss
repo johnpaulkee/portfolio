@@ -52,6 +52,21 @@
   border-radius: 0px;
 }
 
+#intro {
+  padding: 160px 0px 160px 0px;
+  background-image: url(asset-path('batman_bg.png'));
+  background-repeat:no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -webkit-background-size: cover;
+  height: 100%;
+  box-shadow: none;
+  display: block;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+}
+
 #main {
   padding: 160px 0px 160px 0px;
   background-image: url(asset-path('main_bg.png'));
@@ -59,8 +74,6 @@
   background-position: center center;
   -webkit-background-size: cover;
   -webkit-background-size: cover;
-  box-shadow: none;
-  margin: 0px;
   display: block;
       -webkit-background-size: cover;
       -moz-background-size: cover;
