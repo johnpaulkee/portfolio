@@ -13,6 +13,45 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Overpass Light';
+  src:font-url('Overpass-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Overpass ExtraLight';
+  src:font-url('Overpass-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bold {
+  font-family: 'Overpass';
+  font-weight: normal;
+}
+
+.panel-heading {
+  border-radius: 0px;
+  font-size: 20px;
+  font-weight: 50;
+  line-height: 140%;
+  font-family: 'Inconsolata';
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-content {
+  font-family: 'Overpass ExtraLight';
+  font-size: 20px;
+  line-height: 200%;
+}
+
+.card {
+  border-radius: 0px;
+}
+
 #main {
   padding: 160px 0px 160px 0px;
   background-image: url(asset-path('main_bg.png'));
@@ -22,4 +61,13 @@
   -webkit-background-size: cover;
   box-shadow: none;
   margin: 0px;
+  display: block;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+}
+
+.mini-logo {
+  float: right;
+  height: 30px;
 }
